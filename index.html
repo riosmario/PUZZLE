@@ -41,11 +41,17 @@
                 <td><img id="img_11" src="img/tigre-11.jpg" onclick="seleccionar(11)" /> </td>
             </tr>
         </table>
+        <img src="img/TIGRE.jpg" alt="rompecabezas-final" onclick="imagen_final()">;
     </section>
 
 </body>
 
 <script>
+
+//funcion que coloca la imagen del tigre cuando finaliza
+function imagen_final() {
+    
+}
 
     //desordenamos las placas del puzle
     function desordenar() {
@@ -71,6 +77,8 @@
             }
         }
     }
+
+function 
 
     function seleccionar(casilla) {
         num_click = num_click + 1;
@@ -100,6 +108,7 @@
         var correcto = comprobarPuzleFinalizado();
 
         if (correcto == true) {
+
             alert("Puzle Finalizado");
         }
     }
