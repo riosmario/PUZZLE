@@ -1,0 +1,21 @@
+
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.imagenes {
+    display: flex;
+    margin: -4px -4px 0px 0px;
+    width: 160px;
+}
+
+
+
+
+
